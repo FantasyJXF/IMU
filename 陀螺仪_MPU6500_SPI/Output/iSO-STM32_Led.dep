@@ -1,0 +1,170 @@
+Dependencies for Project 'iSO-STM32', Target 'Led': (DO NOT MODIFY !)
+F (..\..\Libraries\CMSIS\startup\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list ..\..\listing\startup_stm32f10x_hd.lst --xref -o ..\..\output\startup_stm32f10x_hd.o --depend ..\..\output\startup_stm32f10x_hd.d)
+F (..\..\Libraries\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\core_cm3.o --omf_browse ..\..\output\core_cm3.crf --depend ..\..\output\core_cm3.d)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)()
+F (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)()
+F (..\..\Libraries\CMSIS\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\system_stm32f10x.o --omf_browse ..\..\output\system_stm32f10x.crf --depend ..\..\output\system_stm32f10x.d)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)()
+F (..\..\Libraries\FWlib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_gpio.o --omf_browse ..\..\output\stm32f10x_gpio.crf --depend ..\..\output\stm32f10x_gpio.d)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\Libraries\FWlib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_rcc.o --omf_browse ..\..\output\stm32f10x_rcc.crf --depend ..\..\output\stm32f10x_rcc.d)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\Libraries\FWlib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_usart.o --omf_browse ..\..\output\stm32f10x_usart.crf --depend ..\..\output\stm32f10x_usart.d)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\Libraries\FWlib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\misc.o --omf_browse ..\..\output\misc.crf --depend ..\..\output\misc.d)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\..\Libraries\FWlib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_spi.o --omf_browse ..\..\output\stm32f10x_spi.crf --depend ..\..\output\stm32f10x_spi.d)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\User\main.c)(0x58F2193D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\..\User\stm32f10x_it.h)(0x5358E304)
+I (..\..\User\Led\bsp_led.h)(0x5590E1E3)
+I (..\..\User\SysTick\bsp_SysTick.h)(0x5355F685)
+I (..\..\User\bsp_usart1.h)(0x55F0EBDA)
+I (D:\Study\MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\..\User\mpu6500.h)(0x58F219F1)
+I (..\..\User\bsp_spi.h)(0x58F200C5)
+F (..\..\User\stm32f10x_conf.h)(0x58F20F7B)()
+F (..\..\User\stm32f10x_it.c)(0x538331CF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_it.o --omf_browse ..\..\output\stm32f10x_it.crf --depend ..\..\output\stm32f10x_it.d)
+I (..\..\User\stm32f10x_it.h)(0x5358E304)
+I (..\..\User\Led\bsp_led.h)(0x5590E1E3)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\User\stm32f10x_it.h)(0x5358E304)()
+F (..\..\User\Led\bsp_led.c)(0x5590E1E3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_led.o --omf_browse ..\..\output\bsp_led.crf --depend ..\..\output\bsp_led.d)
+I (..\..\User\Led\bsp_led.h)(0x5590E1E3)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\User\SysTick\bsp_SysTick.c)(0x5358DEFA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_systick.o --omf_browse ..\..\output\bsp_systick.crf --depend ..\..\output\bsp_systick.d)
+I (..\..\User\SysTick\bsp_SysTick.h)(0x5355F685)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\User\bsp_usart1.c)(0x55F0EBDA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_usart1.o --omf_browse ..\..\output\bsp_usart1.crf --depend ..\..\output\bsp_usart1.d)
+I (..\..\User\bsp_usart1.h)(0x55F0EBDA)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+I (D:\Study\MDK\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\User\mpu6500.c)(0x58F2142D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\mpu6500.o --omf_browse ..\..\output\mpu6500.crf --depend ..\..\output\mpu6500.d)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\..\User\mpu6500.h)(0x58F219F1)
+I (..\..\User\bsp_spi.h)(0x58F200C5)
+I (..\..\User\delay.h)(0x530805FF)
+F (..\..\User\bsp_spi.c)(0x58F20894)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\Libraries\CMSIS -I..\..\User -I..\..\Libraries\FWlib\inc -I..\..\User\Led -I..\..\User\SysTick-I E:\learning_C\SPI_driver\MPU6500\Project\RVMDK£¨uv4£©\RTE-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0-I D:\Study\MDK\ARM\CMSIS\Include-I D:\Study\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_spi.o --omf_browse ..\..\output\bsp_spi.crf --depend ..\..\output\bsp_spi.d)
+I (..\..\User\bsp_spi.h)(0x58F200C5)
+I (..\..\Libraries\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\..\Libraries\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\Study\MDK\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\..\Libraries\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\..\User\stm32f10x_conf.h)(0x58F20F7B)
+I (..\..\Libraries\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\..\Libraries\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\..\Doc\readme.txt)(0x58F1FC49)()

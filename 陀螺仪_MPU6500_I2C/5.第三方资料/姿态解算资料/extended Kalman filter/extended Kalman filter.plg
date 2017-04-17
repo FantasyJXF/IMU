@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: extended Kalman filter - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/extended Kalman filter.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Program Files\Microsoft Visual Studio\MyProjects\extended Kalman filter\ekf.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib WinGsl.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/extended Kalman filter.pdb" /debug /machine:I386 /out:"Debug/extended Kalman filter.exe" /pdbtype:sept 
+".\Debug\ekf.obj"
+".\Debug\ekf_free.obj"
+".\Debug\ekf_init.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP12.tmp"
+<h3>Output Window</h3>
+Compiling...
+ekf.c
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(141) : warning C4028: formal parameter 3 different from declaration
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(296) : warning C4047: 'function' : 'struct gsl_matrix *' differs in levels of indirection from 'struct gsl_matrix ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(296) : warning C4024: 'gsl_matrix_set_identity' : different types for formal and actual parameter 1
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(299) : warning C4244: '=' : conversion from 'double ' to 'int ', possible loss of data
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(357) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(358) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(359) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(360) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(361) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(362) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(363) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(364) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(365) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(372) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'const struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(390) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'const struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(424) : warning C4028: formal parameter 8 different from declaration
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(500) : warning C4020: 'gsl_matrix_set' : too many actual parameters
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(876) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector *' to 'struct gsl_matrix *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(914) : warning C4133: 'function' : incompatible types - from 'struct gsl_matrix *' to 'struct gsl_vector *'
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(823) : warning C4101: 'inv_ok' : unreferenced local variable
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(823) : warning C4101: 'lu_ok' : unreferenced local variable
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1067) : warning C4133: 'function' : incompatible types - from 'struct gsl_matrix ** ' to 'struct gsl_vector ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1068) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector ** ' to 'double ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1069) : warning C4133: 'function' : incompatible types - from 'double ** ' to 'struct gsl_matrix ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1070) : warning C4133: 'function' : incompatible types - from 'struct gsl_matrix ** ' to 'struct calibr_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1070) : warning C4133: 'function' : incompatible types - from 'struct calibr_data ** ' to 'struct enviro_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1070) : warning C4133: 'function' : incompatible types - from 'struct enviro_data ** ' to 'struct temp_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1070) : warning C4020: 'ekf_init' : too many actual parameters
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1117) : warning C4133: 'function' : incompatible types - from 'struct gsl_matrix ** ' to 'struct gsl_vector ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1118) : warning C4133: 'function' : incompatible types - from 'struct gsl_vector ** ' to 'double ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1119) : warning C4133: 'function' : incompatible types - from 'double ** ' to 'struct gsl_matrix ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1120) : warning C4133: 'function' : incompatible types - from 'struct gsl_matrix ** ' to 'struct calibr_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1120) : warning C4133: 'function' : incompatible types - from 'struct calibr_data ** ' to 'struct enviro_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1120) : warning C4133: 'function' : incompatible types - from 'struct enviro_data ** ' to 'struct temp_data ** '
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(1120) : warning C4020: 'ekf_free' : too many actual parameters
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(282) : warning C4715: 'ekf_F_xa' : not all control paths return a value
+d:\program files\microsoft visual studio\myprojects\extended kalman filter\ekf.c(763) : warning C4700: local variable 'status_B' used without having been initialized
+Linking...
+
+
+
+<h3>Results</h3>
+extended Kalman filter.exe - 0 error(s), 37 warning(s)
+</pre>
+</body>
+</html>

@@ -81,36 +81,41 @@
       <Books>
         <Book>
           <Number>0</Number>
-          <Title>STM32F429I-Discovery: Blinky Lab (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\Documentation/STMicroelectronics_Blinky_Lab.pdf</Path>
+          <Title>STM32F429I-Discovery Quick Start Guide (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Documentation/32F429IDISCOVERY_QSG.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
-          <Title>Getting Started (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/DM00092920.pdf</Path>
+          <Title>STM32F429I-Discovery: Blinky Lab (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Documentation/STMicroelectronics_Blinky_Lab.pdf</Path>
         </Book>
         <Book>
           <Number>2</Number>
-          <Title>User Manual (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/DM00093903.pdf</Path>
+          <Title>Getting Started (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/DM00092920.pdf</Path>
         </Book>
         <Book>
           <Number>3</Number>
-          <Title>Bill of Materials (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_bom.zip</Path>
+          <Title>User Manual (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/DM00093903.pdf</Path>
         </Book>
         <Book>
           <Number>4</Number>
-          <Title>Gerber Files (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_gerber.zip</Path>
+          <Title>Bill of Materials (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_bom.zip</Path>
         </Book>
         <Book>
           <Number>5</Number>
-          <Title>Schematics (STM32F429I-Discovery)</Title>
-          <Path>D:\MDK5.14\ARM\PACK\Keil\STM32F4xx_DFP\2.6.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_sch.zip</Path>
+          <Title>Gerber Files (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_gerber.zip</Path>
         </Book>
         <Book>
           <Number>6</Number>
+          <Title>Schematics (STM32F429I-Discovery)</Title>
+          <Path>D:\Study\MDK\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\MDK/Boards/ST/STM32F429I-Discovery/Documentation/stm32f429i-disco_sch.zip</Path>
+        </Book>
+        <Book>
+          <Number>7</Number>
           <Title>STM32F429I-Discovery Web Page (STM32F429I-Discovery)</Title>
           <Path>http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/LN1199/PF259090</Path>
         </Book>
@@ -358,7 +363,7 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>7</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <Focus>0</Focus>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>

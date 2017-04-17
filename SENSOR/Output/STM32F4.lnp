@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"..\..\output\stm32f4xx_it.o"
+"..\..\output\main.o"
+"..\..\output\led.o"
+"..\..\output\usart.o"
+"..\..\output\delay.o"
+"..\..\output\systick.o"
+"..\..\output\mpu9250.o"
+"..\..\output\mpu9250_spi.o"
+"..\..\output\ahrs.o"
+"..\..\output\startup_stm32f427_437xx.o"
+"..\..\output\misc.o"
+"..\..\output\stm32f4xx_usart.o"
+"..\..\output\stm32f4xx_dma.o"
+"..\..\output\stm32f4xx_spi.o"
+"..\..\output\stm32f4xx_rtc.o"
+"..\..\output\stm32f4xx_pwr.o"
+"..\..\output\stm32f4xx_exti.o"
+"..\..\output\stm32f4xx_rcc.o"
+"..\..\output\stm32f4xx_gpio.o"
+"..\..\output\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "..\..\Output\STM32F4.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Listing\STM32F4.map" -o ..\..\Output\STM32F4.axf
